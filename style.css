@@ -1,0 +1,88 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(35, 36, 35);
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.05) 25%,
+            transparent 25%, transparent 50%,
+            rgba(255, 255, 255, 0.05) 50%,
+            rgba(255, 255, 255, 0.05) 75%,
+            transparent 75%, transparent);
+    background-attachment: fixed;
+    background-size: 400px 400px;
+    background-position: 0 0, 400px 400px;
+    animation: moveBg 4s linear infinite;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+@keyframes moveBg {
+    from {
+        background-position: 0 0, 400px 400px;
+    }
+
+    to {
+        background-position: 400px 0, 0 400px;
+    }
+}
+
+.card {
+    text-align: center;
+    color: #fbfffbdb;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgb(62, 65, 62);
+    padding: 25px 5px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+h1,
+p {
+    margin-bottom: 0;
+    margin-top: 0.25rem;
+}
+
+.btn-box {
+    margin-left: 15%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn {
+    box-shadow: -1px 4px 13px 0px rgba(0, 0, 0, .1);
+    width: 85px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 12px 10px;
+    border-radius: 25px;
+    font-size: 90%;
+    cursor: pointer;
+    margin-bottom: 0.75rem;
+}
+
+.btn-a {
+    text-decoration: none;
+    color: #fbfffbdb;
+}
+
+.tips {
+    font-size: 80%;
+    margin-top: 0.5rem;
+}
+
+.email {
+    color: #fbfffbdb;
+    background-color: rgb(81, 85, 81);
+    padding: 3.5px 5px;
+    border-radius: 5px;
+}
