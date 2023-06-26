@@ -18,7 +18,7 @@ var textList = {
     'Client-Text': 'Android',
     'Tips1-Text': '⭐建議閣下收藏本頁以防止迷路',
     'Tips2-Text': '❗傳送 Email 加入召喚列表: <a href="mailto:finder@noy.asia" class="email">finder@noy.asia</a>',
-    'Tips3-Text': '❗訂閱 RSS 地址: <a href="https://noy1.top/atom.xml" class="email">https://noy1.top/atom.xml</a>',
+    'Tips3-Text': '❗訂閱 RSS 地址: <a href="https://noy.icu/atom.xml" class="email">https://noy.icu/atom.xml</a>',
 };
 var urlList = {
     'a-URL': 'https://noy1.top',
