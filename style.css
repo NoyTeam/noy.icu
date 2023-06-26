@@ -32,7 +32,7 @@ body {
     margin-top: 100px;
     background-color: rgb(62, 65, 62);
     padding: 25px 5px;
-    width: 320px;
+    width: 340px;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
 }
@@ -73,6 +73,10 @@ p {
 .btn-a {
     text-decoration: none;
     color: #fbfffbdb;
+}
+
+.url {
+    opacity: 0.6;
 }
 
 .tips {
