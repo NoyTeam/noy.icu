@@ -22,7 +22,7 @@ var textList = {
 };
 var urlList = {
     'a-URL': 'https://noy1.top',
-    'Forum-URL': 'https://forum.noy.asia/d/146-android-app-248'
+    'Forum-URL': 'https://forum.noy.asia/d/181-android-app-249'
 };
 
 
